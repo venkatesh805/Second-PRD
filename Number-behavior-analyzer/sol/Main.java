@@ -8,7 +8,7 @@ public class Main {
         int benchmarkNum = 25;
 
         // Hard-coded menu choices
-        int[] operationSequence = { 1, 2, 3, 5, 7, 6, 4, 9, 8 };
+        int[] operationSequence = {1, 2, 3, 5, 7, 6, 4, 9, 8};
 
         int step = 0;
         boolean isRunning = true;
@@ -28,8 +28,8 @@ public class Main {
                     String sign = (currentVal > 0)
                             ? "Positive Number"
                             : (currentVal < 0)
-                                    ? "Negative Number"
-                                    : "Zero";
+                                ? "Negative Number"
+                                : "Zero";
 
                     System.out.println("Result: " + sign);
                     break;
@@ -60,8 +60,8 @@ public class Main {
                     String compare = (currentVal > benchmarkNum)
                             ? "Greater than " + benchmarkNum
                             : (currentVal < benchmarkNum)
-                                    ? "Less than " + benchmarkNum
-                                    : "Equal to " + benchmarkNum;
+                                ? "Less than " + benchmarkNum
+                                : "Equal to " + benchmarkNum;
 
                     System.out.println("Result: " + compare);
                     break;
